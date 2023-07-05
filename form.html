@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form: A way to submit information on the web</title>
+  </head>
+
+  <body>
+
+
+    <form action="">
+      <!-- section personal information -->
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <!-- input first name, last name, gender, age, website and email -->
+        <div class="control">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" placeholder="John Who What" required>
+        </div>
+
+        <div class="control">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+        </div>
+
+        <div class="control">
+          <select>
+            <option>Please select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Do not decide for me</option>
+          </select>
+        </div>
+
+        <mytime />
+
+      </fieldset>
+    </form>
+  </body>
+
+</html>
